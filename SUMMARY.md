@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [Python](python.md)
-   * Django
+   * [Django](django.md)
    * [Jenkins](jenkins.md)
 
