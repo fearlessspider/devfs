@@ -7,5 +7,9 @@ Jenkins provides packages for most system distributions. Installation is very si
 sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 sudo apt-get update
 sudo apt-get install jenkins```
+By default Jenkins runs on port 8080 and listens on all network interfaces. After installing the package, you can visit Jenkins under the URL: http://test-server:8080
+
+The default setup provides no security at all, so if your server is accessible outside of a trusted network you will need to secure it. Jenkins documentation describes a basic security setup, which you can extend by proxying Jenkins through your secured Apache or Nginx server, using HTTPs, etc.
+
 
 
