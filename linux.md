@@ -20,4 +20,5 @@ sudo apt-get install nginx php5 php5-fpm php5-gd mysql-client libmysqlclient-dev
 sudo easy_install pip
 sudo pip install virtualenv
 ```
+## Add user with home
 
