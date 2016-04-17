@@ -4,5 +4,5 @@
 * [Python](python.md)
    * [Django](django.md)
    * [Jenkins](jenkins.md)
-* Linux
+* [Linux](linux.md)
 
