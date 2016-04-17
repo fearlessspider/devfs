@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Linux
+* Linux
 * [Python](python.md)
    * [Django](django.md)
    * [Jenkins](jenkins.md)
