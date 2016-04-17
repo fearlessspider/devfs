@@ -21,4 +21,15 @@ sudo easy_install pip
 sudo pip install virtualenv
 ```
 ## Add user with home
-
+For command line, these should work:
+```
+useradd -m USERNAME
+```
+You have to use -m, otherwise no home directory will be created. If you want to specify the path of the home directory, use -d and specify the path:
+```
+useradd -m -d /PATH/TO/FOLDER USERNAME
+```
+You can then set the password with:
+```
+passwd USERNAME
+```
